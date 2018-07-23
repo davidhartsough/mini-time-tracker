@@ -1,0 +1,8 @@
+#dh-mini-app-root {
+  box-sizing: border-box;
+  background-color: hsl(208, 8%, 98%);
+  color: hsla(208, 8%, 16%, 0.96);
+  font-size: 16px;
+  letter-spacing: 0.025em;
+  min-width: 20rem;
+}

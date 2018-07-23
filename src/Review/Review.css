@@ -1,0 +1,4 @@
+#review .ant-table-thead > tr > th.ant-table-column-has-filters,
+#review .ant-table-thead > tr > th.ant-table-column-sort {
+  background-color: transparent;
+}

@@ -1,0 +1,33 @@
+#activity-list {
+  margin: 1rem 0;
+}
+#primary-action {
+  background-color: hsl(208, 85%, 51%);
+  min-width: 4rem;
+  border-radius: 1.25rem;
+  line-height: 2rem;
+  height: 2.5rem;
+  padding: 0.25rem 1.75rem;
+  letter-spacing: 0.05rem;
+  border: none;
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 2rem auto;
+}
+#primary-action:hover,
+#primary-action:focus {
+  background-color: hsl(208, 85%, 56%);
+  color: #fff;
+  text-decoration: none;
+  z-index: 1;
+  -webkit-box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+#primary-action:active {
+  background-color: hsl(208, 85%, 42%);
+  color: #fff;
+}

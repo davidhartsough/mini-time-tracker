@@ -1,0 +1,33 @@
+#dh-mini-app {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#today-header {
+  display: flex;
+  line-height: 1;
+  padding: 1rem 0.5rem;
+}
+#today-title {
+  font-size: 1.5rem;
+  flex-grow: 1;
+}
+#today-total {
+  font-size: 1.25rem;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.ant-tabs-bar {
+  margin: 0;
+}
+.ant-tabs-nav.ant-tabs-nav-animated {
+  width: 224px;
+  display: block;
+  margin: 0 auto;
+}
+.ant-tabs-tab {
+  width: 6rem;
+  text-align: center;
+}

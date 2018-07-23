@@ -1,0 +1,72 @@
+#track .ant-list-item {
+  padding: 1rem;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+#track .ant-list-item-meta {
+  width: calc(100% - 4rem);
+  max-width: calc(100% - 4rem);
+  flex: 1 1 calc(100% - 4rem);
+  overflow: hidden;
+}
+#track .ant-btn-circle {
+  border: none;
+}
+#track .ant-btn-circle .anticon {
+  font-size: 2rem;
+}
+#track .active .ant-btn-circle .anticon {
+  color: #1889ec;
+}
+#track .ant-list-item-meta-title {
+  margin: 0;
+}
+#track .ant-list-item-meta-avatar {
+  flex: 1 1 2rem;
+}
+#track .ant-list-item-meta-content {
+  width: calc(100% - 3rem);
+  max-width: calc(100% - 3rem);
+  flex: 1 1 calc(100% - 3rem);
+  overflow: hidden;
+}
+#track .ant-select {
+  display: block;
+}
+#track .ant-select-selection {
+  border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+}
+#track .ant-select-focused .ant-select-selection {
+  border-bottom: 2px solid #40a9ff;
+}
+#track .ant-select-selection:hover {
+  border-color: #616161;
+}
+#track .active .ant-select-selection {
+  border-color: #9fc2df;
+}
+#track .ant-select-focused .ant-select-selection:hover,
+#track .active .ant-select-selection:active,
+#track .active .ant-select-selection:hover,
+#track .active .ant-select-selection:focus,
+#track .active .ant-select-focused .ant-select-selection {
+  border-color: #40a9ff;
+}
+#track .ant-list-item-content {
+  line-height: 2rem;
+  flex: 1 1 4rem;
+}
+.ant-select-dropdown.ant-select-dropdown--multiple.ant-select-dropdown-placement-bottomLeft {
+  display: none;
+}
+#track .duration {
+  min-width: 4rem;
+  text-align: right;
+}
+#track .active .duration {
+  color: #1889ec;
+}
